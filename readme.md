@@ -16,8 +16,11 @@ to catalogue in server and open path to this in a browser.
 configuration in file config.php: 
 
 $host = "localhost";
+
 $database = "doorAccessControl";
+
 $user = "doorAccessContro";
+
 $password = "blabla123#";
 
 USE

@@ -334,33 +334,7 @@ class database extends mysqli {
                     
                     array_push($workingTime, $timeTA);
                 }
-
-                /*if ($coming == TRUE) {
-                    $comeWork = new DateTime($time);
-                    $nowDate = date("d-m-Y", strtotime($time));
-                    $userPin = $pin;
-                }
-
-                if ($coming == FALSE && $nowDate == date("d-m-Y", strtotime($time)) && $userPin == $pin) {
-                    $leavework = new DateTime($time);
-                }
-
-                if ($comeWork != NULL && $leavework != NULL && $nowDate == date("d-m-Y", strtotime($time)) && $userPin == $pin) {
-                    $difference = $comeWork->diff($leavework);
-                    //echo "$difference->h : $difference->i : $difference->s  <br>";
-
-                    $arrayWorkTime = [
-                        "UserName" => $name,
-                        "WorkTime" => $difference->h . ':' . $difference->i . ':' . $difference->s,
-                        "Date" => $nowDate
-                    ];
-
-                    $comeWork = null;
-                    $leavework = null;*/
-                
             }
-            //var_dump($workingTime);
-
         }
         $stmt->close();
         $db->close();

@@ -71,25 +71,5 @@ if (isset($_GET['pin'])) {
                 <button class="btn btn-primary btn-block" type="submit" value="submit">Submit</button>
             </form>
         </div>
-
-        <?php
-        //if send GET request
-        //var_dump( $dupa->isPinExist(4329) );
-        //$dupa->setUser('andaaarzej', 'testowy', 4331);
-        //var_dump($user->generatePin($db));
-        $name = "marta";
-        $surname = "antczak";
-        /*
-          $newUserData = $user->register($name, $surname, $db);
-
-          echo $newUserData->name;
-          echo $newUserData->surname;
-          echo $newUserData->pin;
-         */
-
-        //var_dump($db->getLastInputPinFromUser(420));
-        //$db->saveUserComingOutComing(1234, 0);
-        ?>
-
     </body>
 </html>
